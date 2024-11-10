@@ -1,0 +1,33 @@
+site_name: cyyz-wiki
+site_url: https://electrowind.github.io/cyyz-wiki
+theme:
+  language: 'zh'
+  name: material
+  palette:
+    accent: green
+    primary: white
+  logo: cyyz.bmp
+  features:
+    - search.highlight
+  plugins:
+    - search
+
+markdown_extensions:
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem
+
+nav:
+  - Home:
+    - Index: index.md
+    - 前言: intro/Pre-saying.md
+    - 鸣谢: intro/thanks.md
+#    - 目录: intro/Menu.md
+  - 食堂: 
+    - 特色区: 
+      - 简介 & 目录 : dish/special/menu.md
+      - 面条: dish/special/noodles.md
+    - 打饭区: dish/diningarea.md
+    - 杂类: dish/others.md
+
+    
