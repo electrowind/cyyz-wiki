@@ -11,6 +11,7 @@ theme:
     - search.highlight
   plugins:
     - search
+  favicon: cyyz.bmp
 
 markdown_extensions:
   - pymdownx.arithmatex:
