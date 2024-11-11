@@ -1,4 +1,6 @@
-
+:root {
+    --md-text-font: "MinecraftAE"; 
+}
 
 # **Welcome to CYYZ!**
 
