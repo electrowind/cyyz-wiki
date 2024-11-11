@@ -2,7 +2,7 @@ site_name: cyyz-wiki
 site_url: https://electrowind.github.io/cyyz-wiki
 theme:
   language: 'zh'
-  name: mkdocs
+  name: material
   palette:
     accent: green
     primary: white
@@ -14,10 +14,10 @@ theme:
   favicon: images/cyyz.bmp
   fonts: false
 
-# markdown_extensions:
-#   - pymdownx.arithmatex:
-#       generic: true
-#   - pymdownx.betterem
+markdown_extensions:
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem
 
 nav:
   - Home:
