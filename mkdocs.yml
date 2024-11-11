@@ -28,6 +28,13 @@ nav:
     - 特色区: 
       - 简介 & 目录 : dish/special/menu.md
       - 面条: dish/special/noodles.md
+      - 粉丝: dish/special/starchnoodles.md
+      - 米线: dish/special/ricenoodles.md
+      - 馄饨: dish/special/wonton.md
+      - 肉夹馍: dish/special/roujiamo.md
+      - 卷饼: dish/special/burritos.md
+      - 盖浇饭: dish/special/rice-with-toppings.md
+      - 烤肠: dish/special/sausage.md
     - 打饭区: dish/diningarea.md
     - 杂类: dish/others.md
   - 尚未分类:
