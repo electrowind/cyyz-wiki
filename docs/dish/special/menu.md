@@ -8,6 +8,6 @@
 | [粉丝](starchnoodles.md)      | 13元 |
 | [米线](ricenoodles.md)      | 14元 |
 | [馄饨](wonton.md)      | 12元 |
-| [肉夹馍](roujiamo.md)/[卷饼](#卷饼)    | 8元   |
-| [盖浇饭](#盖浇饭)     | 13元 |
-| [烤肠](#烤肠)     | 4.5元 |
+| [肉夹馍](roujiamo.md)/[卷饼](burritos.md)    | 8元   |
+| [盖浇饭](rice-with-toppings.md)     | 13元 |
+| [烤肠](sausage.md)     | 4.5元 |
