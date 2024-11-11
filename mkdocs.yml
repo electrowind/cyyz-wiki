@@ -12,7 +12,8 @@ theme:
   plugins:
     - search
   favicon: images/cyyz.bmp
-  fonts: fonts/Minecraft AE.ttf
+  fonts: 
+    - text: fonts/MinecraftAE.ttf
 
 markdown_extensions:
   - pymdownx.arithmatex:
