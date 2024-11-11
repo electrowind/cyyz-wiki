@@ -12,6 +12,7 @@ theme:
   plugins:
     - search
   favicon: images/cyyz.bmp
+  fonts: fonts/Minecraft AE.ttf
 
 markdown_extensions:
   - pymdownx.arithmatex:
@@ -23,12 +24,14 @@ nav:
     - Index: index.md
     - 前言: intro/Pre-saying.md
     - 鸣谢: intro/thanks.md
-#    - 目录: intro/Menu.md
+    - 加入我们 intro/joinus.md
   - 食堂: 
     - 特色区: 
       - 简介 & 目录 : dish/special/menu.md
       - 面条: dish/special/noodles.md
     - 打饭区: dish/diningarea.md
     - 杂类: dish/others.md
+  - 尚未分类:
+    - 宣誓词: unclassfied/affidavit.md
 
     
