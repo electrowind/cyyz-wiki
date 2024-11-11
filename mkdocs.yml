@@ -25,6 +25,7 @@ nav:
     - 鸣谢: intro/thanks.md
     - 加入我们: intro/joinus.md
   - 食堂: 
+    - 前言: dish/index.md
     - 特色区: 
       - 简介 & 目录 : dish/special/menu.md
       - 面条: dish/special/noodles.md

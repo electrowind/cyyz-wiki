@@ -17,9 +17,9 @@
 
 点击可快速跳转。
 
-- [1. 前言](index)
+- [1. 前言](intro/Pre-saying.md)
 - [2. 鸣谢](intro/thanks)
-- [3. 食堂](dish)
+- [3. 食堂](dish/index)
     - [3.1 特色区](dish/special/menu)
     - [3.2 营养餐](dish/diningarea)
     - [3.3 杂类](dish/others) 
