@@ -6,12 +6,12 @@ theme:
   palette:
     accent: green
     primary: white
-  logo: cyyz.bmp
+  logo: images/cyyz.bmp
   features:
     - search.highlight
   plugins:
     - search
-  favicon: cyyz.bmp
+  favicon: images/cyyz.bmp
 
 markdown_extensions:
   - pymdownx.arithmatex:
