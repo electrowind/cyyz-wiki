@@ -2,7 +2,7 @@ site_name: cyyz-wiki
 site_url: https://electrowind.github.io/cyyz-wiki
 theme:
   language: 'zh'
-  name: material
+  name: mkdocs
   palette:
     accent: green
     primary: white
@@ -12,20 +12,19 @@ theme:
   plugins:
     - search
   favicon: images/cyyz.bmp
-  fonts: 
-    - text: fonts/MinecraftAE.ttf
+  fonts: false
 
-markdown_extensions:
-  - pymdownx.arithmatex:
-      generic: true
-  - pymdownx.betterem
+# markdown_extensions:
+#   - pymdownx.arithmatex:
+#       generic: true
+#   - pymdownx.betterem
 
 nav:
   - Home:
     - Index: index.md
     - 前言: intro/Pre-saying.md
     - 鸣谢: intro/thanks.md
-    - 加入我们 intro/joinus.md
+    - 加入我们: intro/joinus.md
   - 食堂: 
     - 特色区: 
       - 简介 & 目录 : dish/special/menu.md
@@ -35,4 +34,4 @@ nav:
   - 尚未分类:
     - 宣誓词: unclassfied/affidavit.md
 
-    
+
