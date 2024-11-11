@@ -1,0 +1,7 @@
+@font-face {
+    font-family: "<MinecraftAE>";
+    src: url(fonts/MinecraftAE.ttf);
+    :root {
+        --md-text-font: "<MinecraftAE>"; 
+      }
+  }

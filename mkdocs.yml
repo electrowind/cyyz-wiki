@@ -12,12 +12,11 @@ theme:
   plugins:
     - search
   favicon: images/cyyz.bmp
-  fonts: false
 
 markdown_extensions:
-  - pymdownx.arithmatex:
-      generic: true
-  - pymdownx.betterem
+   - pymdownx.arithmatex:
+       generic: true
+   - pymdownx.betterem
 
 nav:
   - Home:
@@ -34,4 +33,5 @@ nav:
   - 尚未分类:
     - 宣誓词: unclassfied/affidavit.md
 
-
+extra_css:
+  - stylesheets/extra.css
