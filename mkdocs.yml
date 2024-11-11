@@ -9,6 +9,8 @@ theme:
   logo: images/cyyz.bmp
   features:
     - search.highlight
+    - navigation.instant
+    - navigation.tabs
   plugins:
     - search
   favicon: images/cyyz.bmp
