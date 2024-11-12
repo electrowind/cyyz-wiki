@@ -1,7 +1,12 @@
 @font-face {
-    font-family: "<font>";
-    src: url(fonts/MinecraftAE.ttf) format(MinecraftAE);
+  font-family: "mc";
+  src: url(../fonts/MinecraftAE.ttf) format(truetype);
+  /* src: url(../fonts/unifont.otf) format(opentype);  */
+  font-weight: normal;           /* 定义字体粗细 */
+  font-style: normal; 
+    
   }
-:root {
-    --md-text-font: "<font>"; 
-}
+/* :root {
+  --md-text-font: "mc"; 
+  } */
+

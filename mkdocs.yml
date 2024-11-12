@@ -52,6 +52,7 @@ nav:
     - 宿舍: campus/dorm.md
   - 尚未分类:
     - 宣誓词: unclassfied/affidavit.md
+    - 诗作: unclassfied/poem.md
 
-extra_css:
-  - stylesheets/extra.css
+# extra_css:
+#   - stylesheets/extra.css
