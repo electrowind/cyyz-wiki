@@ -13,6 +13,7 @@ theme:
     - navigation.tabs
   plugins:
     - search
+    - social
   favicon: images/cyyz.bmp
 
 markdown_extensions:
