@@ -6,7 +6,7 @@ theme:
   palette:
     accent: green
     primary: white
-  logo: images/cyyz.bmp
+  logo: images/icon.png
   features:
     - search.highlight
     - navigation.instant
@@ -14,7 +14,7 @@ theme:
   plugins:
     - search
     - social
-  favicon: images/cyyz.bmp
+  favicon: images/icon.png
 
 markdown_extensions:
    - pymdownx.arithmatex:
