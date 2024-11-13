@@ -4,8 +4,9 @@ theme:
   language: 'zh'
   name: material
   palette:
-    accent: green
+    scheme: nthing
     primary: white
+    accent: green
   logo: images/icon.png
   features:
     - search.highlight
@@ -29,6 +30,7 @@ nav:
     - 加入我们: intro/joinus.md
   - 食堂: 
     - 前言: dish/index.md
+    - 早餐: dish/breakfast.md
     - 特色区: 
       - 简介 & 目录 : dish/special/menu.md
       - 面条: dish/special/noodles.md
@@ -41,18 +43,17 @@ nav:
       - 烤肠: dish/special/sausage.md
     - 打饭区: dish/diningarea.md
     - 杂类: dish/others.md
-    - 心声: dish/comments.md
   - 校园:
     - 前言: campus/index.md
     - 教学楼: campus/teaching-building.md
     - 操场: campus/playground.md
     - 食堂: campus/dinninghall.md
-    - 天问楼: campus/Tianwen-building.md
-    - 学术报告厅: campus/hall.md
+    - 天问楼，体育馆与学术报告厅: campus/tianwen-gym-and-hall.md
     - 宿舍: campus/dorm.md
+  - 教师: teachers.md
   - 尚未分类:
     - 宣誓词: unclassfied/affidavit.md
     - 诗作: unclassfied/poem.md
 
-# extra_css:
-#   - stylesheets/extra.css
+extra_css:
+  - stylesheets/extra.css
