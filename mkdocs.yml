@@ -12,10 +12,30 @@ theme:
     - search.highlight
     - navigation.instant
     - navigation.tabs
-  plugins:
-    - search
-    - social
-  favicon: images/icon.png
+    # - navigation.footer
+    - content.action.edit
+    - content.action.view
+  favicon: images/icon.png  
+
+repo_url: https://github.com/electrowind/cyyz-wiki
+repo_name: electrowind/cyyz-wiki
+edit_uri: edit/main/docs/
+
+plugins:
+  - search
+  - blog
+  # - rss:
+  #     match_path: blog/posts/.* 
+    # date_from_meta:
+    #   as_creation: date
+    # categories:
+      # - categories
+      # - tags 
+  # - git-revision-date-localized:
+  #     enable_creation_date: true
+  #     type: date
+#   - social
+  
 
 markdown_extensions:
    - pymdownx.arithmatex:
@@ -48,12 +68,17 @@ nav:
     - 教学楼: campus/teaching-building.md
     - 操场: campus/playground.md
     - 食堂: campus/dinninghall.md
+    - 雕塑: campus/sculpture.md
     - 天问楼，体育馆与学术报告厅: campus/tianwen-gym-and-hall.md
     - 宿舍: campus/dorm.md
+    - 其他: campus/others.md
   - 教师: teachers.md
   - 尚未分类:
     - 宣誓词: unclassfied/affidavit.md
     - 诗作: unclassfied/poem.md
+    - ??? : unclassfied/test.md
+  - Blog:
+    - blog/index.md
 
 extra_css:
   - stylesheets/extra.css

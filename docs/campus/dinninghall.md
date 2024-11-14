@@ -32,7 +32,7 @@ cyyz共两座食堂，分别为春雨食堂和桃李食堂。
 
 ![chunyu](../images/chunyu-dinninghall.jpg '春雨食堂效果图，与实景存在出入，请以实际为准')
 
-### 一层
+### <href id="cy-1f">一层</href>
 
 当前为2023级学生食堂 & 所有学生早餐食堂。
 
