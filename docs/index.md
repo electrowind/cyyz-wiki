@@ -38,4 +38,5 @@
     - [4.4 雕塑](campus/sculpture.md)
     - [4.5 天问楼，体育馆与学术报告厅](campus/tianwen-gym-and-hall.md)
     - [4.6 宿舍](campus/dorm.md)
+    - [4.7 其他](campus/others.md)
 - [5. 教师](teachers.md)
