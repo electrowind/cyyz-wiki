@@ -23,6 +23,7 @@ edit_uri: edit/main/docs/
 
 plugins:
   - search
+  - git-authors
   - blog:
       authors_profiles: true
   - rss:
@@ -48,7 +49,7 @@ nav:
     - Index: index.md
     - 前言: intro/Pre-saying.md
     - 鸣谢: intro/thanks.md
-    - 加入我们: intro/joinus.md
+    - 加入&支持我们: intro/joinus.md
   - 食堂: 
     - 前言: dish/index.md
     - 早餐: dish/breakfast.md
