@@ -24,8 +24,7 @@ edit_uri: edit/main/docs/
 plugins:
   - search
   - git-authors
-  - blog:
-      authors_profiles: true
+  - blog
   - rss:
       match_path: blog/posts/.* 
       date_from_meta:
@@ -34,6 +33,7 @@ plugins:
         - categories
         - tags 
   - git-revision-date-localized:
+      enabled: false
       enable_creation_date: true
       type: date
 #   - social
