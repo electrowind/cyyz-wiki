@@ -23,7 +23,6 @@ edit_uri: edit/main/docs/
 
 plugins:
   - search
-  - git-authors
   - blog
   - rss:
       match_path: blog/posts/.* 
@@ -32,10 +31,9 @@ plugins:
       categories:
         - categories
         - tags 
-  - git-revision-date-localized:
-      enabled: false
-      enable_creation_date: true
-      type: date
+  - git-committers:
+      repository: electrowind/cyyz-wiki
+      branch: main
 #   - social
   
 
@@ -75,6 +73,9 @@ nav:
     - 宿舍: campus/dorm.md
     - 其他: campus/others.md
   - 教师: teachers.md
+  - 校规校纪:
+    - 前言: rules/index.md
+    - 校服: rules/uniform.md
   - 尚未分类:
     - 宣誓词: unclassfied/affidavit.md
     - 诗作: unclassfied/poem.md
