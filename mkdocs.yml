@@ -23,8 +23,7 @@ edit_uri: edit/main/docs/
 
 plugins:
   - search
-  - blog:
-      authors_profiles: true
+  - blog
   - rss:
       match_path: blog/posts/.* 
       date_from_meta:
@@ -32,9 +31,9 @@ plugins:
       categories:
         - categories
         - tags 
-  - git-revision-date-localized:
-      enable_creation_date: true
-      type: date
+  - git-committers:
+      repository: electrowind/cyyz-wiki
+      branch: main
 #   - social
   
 
@@ -48,7 +47,7 @@ nav:
     - Index: index.md
     - 前言: intro/Pre-saying.md
     - 鸣谢: intro/thanks.md
-    - 加入我们: intro/joinus.md
+    - 加入&支持我们: intro/joinus.md
   - 食堂: 
     - 前言: dish/index.md
     - 早餐: dish/breakfast.md
@@ -74,6 +73,9 @@ nav:
     - 宿舍: campus/dorm.md
     - 其他: campus/others.md
   - 教师: teachers.md
+  - 校规校纪:
+    - 前言: rules/index.md
+    - 校服: rules/uniform.md
   - 尚未分类:
     - 宣誓词: unclassfied/affidavit.md
     - 诗作: unclassfied/poem.md
