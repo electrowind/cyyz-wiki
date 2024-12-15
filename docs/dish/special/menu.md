@@ -11,3 +11,4 @@
 | [肉夹馍](roujiamo.md)/[卷饼](burritos.md)    | 7元   |
 | [盖浇饭](rice-with-toppings.md)     | 13元 |
 | [烤肠](sausage.md)     | 4.5元 |
+| [羊肉汤](muttonsoup.md)     | 13元 |
